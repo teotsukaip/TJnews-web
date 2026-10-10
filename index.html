@@ -180,6 +180,7 @@
       gap: 12px;
     }
     footer a { color: var(--muted); }
+    .footlinks { display: flex; gap: 18px; flex-wrap: wrap; }
     @media (max-width: 860px) {
       .hero, .cards, .shots, .support, footer { grid-template-columns: 1fr; display: grid; }
       .hero { padding-top: 40px; }
@@ -196,6 +197,7 @@
       <nav class="nav">
         <a href="#features">特徴</a>
         <a href="#screens">画面</a>
+        <a href="privacy.html">プライバシー</a>
         <a href="#support">サポート</a>
       </nav>
     </div>
@@ -289,7 +291,10 @@
   </main>
   <footer class="wrap">
     <span>TJ News</span>
-    <a href="mailto:support@corevista.jp">support@corevista.jp</a>
+    <span class="footlinks">
+      <a href="privacy.html">プライバシーポリシー</a>
+      <a href="mailto:support@corevista.jp">support@corevista.jp</a>
+    </span>
   </footer>
 </body>
 </html>

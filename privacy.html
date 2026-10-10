@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>プライバシーポリシー — TJ News</title>
+  <meta name="description" content="TJ Newsのプライバシーポリシーです。アカウント登録はなく、ニュースの取得以外に利用者情報を送りません。">
+  <style>
+    :root {
+      --bg: #030a18;
+      --text: #f4f8ff;
+      --muted: #a9bdd4;
+      --line: rgba(150, 196, 255, 0.18);
+      --card: rgba(10, 28, 62, 0.72);
+      --blue: #49c8ff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      color: var(--text);
+      font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", sans-serif;
+      background:
+        radial-gradient(900px 520px at 78% -10%, rgba(40, 120, 255, 0.35), transparent 60%),
+        linear-gradient(180deg, #071226 0%, var(--bg) 42%, #020712 100%);
+      line-height: 1.85;
+    }
+    a { color: var(--blue); }
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 5;
+      backdrop-filter: blur(16px);
+      background: rgba(3, 10, 24, 0.72);
+      border-bottom: 1px solid var(--line);
+    }
+    .bar {
+      width: min(820px, calc(100% - 40px));
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 72px;
+    }
+    .logo {
+      color: var(--text);
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 22px;
+    }
+    .logo span { font-weight: 500; margin-left: 6px; }
+    .nav a {
+      color: var(--muted);
+      text-decoration: none;
+      margin-left: 22px;
+      font-size: 14px;
+    }
+    main {
+      width: min(820px, calc(100% - 40px));
+      margin: 0 auto;
+      padding: 48px 0 24px;
+    }
+    h1 { margin: 0 0 8px; font-size: clamp(32px, 5vw, 44px); line-height: 1.3; }
+    .date { margin: 0 0 28px; color: var(--muted); }
+    article {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      padding: 8px 28px 28px;
+    }
+    h2 { margin: 28px 0 8px; font-size: 20px; }
+    p, li { color: var(--muted); }
+    strong { color: var(--text); font-weight: 700; }
+    ul { margin: 8px 0 0; padding-left: 1.2em; }
+    footer {
+      width: min(820px, calc(100% - 40px));
+      margin: 0 auto;
+      padding: 28px 0 48px;
+      color: var(--muted);
+      font-size: 13px;
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    footer a { color: var(--muted); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="bar">
+      <a class="logo" href="index.html">TJ<span>News</span></a>
+      <nav class="nav">
+        <a href="index.html">ホーム</a>
+        <a href="mailto:support@corevista.jp">サポート</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <h1>プライバシーポリシー</h1>
+    <p class="date">制定日: 2026年10月10日</p>
+    <article>
+      <p>TJ News（以下「本アプリ」）は、AIキャスターがニュースを読み上げるiPhoneアプリです。本ポリシーは、本アプリにおける情報の取り扱いを定めるものです。</p>
+
+      <h2>運営者</h2>
+      <p>本アプリの運営連絡先は <a href="mailto:support@corevista.jp">support@corevista.jp</a> です。</p>
+
+      <h2>取得しない情報</h2>
+      <p>本アプリは、アカウント登録を求めません。次の情報は取得しません。</p>
+      <ul>
+        <li>氏名、メールアドレス、電話番号、その他の連絡先</li>
+        <li>位置情報</li>
+        <li>カメラ、マイク、写真、連絡先へのアクセス</li>
+        <li>広告識別子を使ったトラッキング</li>
+        <li>利用者が入力した文章を、外部のAIサービスへ送ること</li>
+      </ul>
+
+      <h2>サーバーとの通信</h2>
+      <p>ニュースの見出し、本文、読み上げ音声を表示・再生するため、本アプリは当社のサーバー <strong>https://gate.corevista.jp</strong> にHTTPSで接続し、ニュース一覧と音声ファイルを取得します。</p>
+      <p>この通信では、接続を成立させるために通常必要となる技術情報（IPアドレス、日時、要求されたURLなど）がサーバーに到達します。サーバーでは、配信の維持に必要な範囲でこれらの接続ログが記録される場合があります。広告配信や、利用者を特定するためのプロファイリングには用いません。</p>
+
+      <h2>端末内での処理</h2>
+      <p>音声の再生と、読み上げに合わせた口の動きの処理は、端末の中だけで行います。音声データやその解析結果を外部へ送信しません。</p>
+      <p>音声ファイルは再生のために端末の一時領域へ保存し、読み込み後に削除します。</p>
+
+      <h2>広告・第三者への提供</h2>
+      <p>本アプリには、広告SDKおよび解析SDKを組み込んでいません。利用者の情報を販売しません。</p>
+
+      <h2>ニュース原稿について</h2>
+      <p>記事の原稿と読み上げ音声は、AIを用いて作成し、人が内容を確認してから配信しています。この作成工程で、アプリの利用者から情報を受け取ることはありません。</p>
+
+      <h2>子どもの個人情報</h2>
+      <p>本アプリは、13歳未満の子どもから意図的に個人情報を収集しません。</p>
+
+      <h2>ポリシーの変更</h2>
+      <p>本ポリシーを変更する場合は、このページに新しい内容と制定日を掲載します。</p>
+
+      <h2>お問い合わせ</h2>
+      <p>本ポリシーに関するご質問は、<a href="mailto:support@corevista.jp">support@corevista.jp</a> までご連絡ください。</p>
+    </article>
+  </main>
+  <footer>
+    <span>TJ News</span>
+    <a href="mailto:support@corevista.jp">support@corevista.jp</a>
+  </footer>
+</body>
+</html>
